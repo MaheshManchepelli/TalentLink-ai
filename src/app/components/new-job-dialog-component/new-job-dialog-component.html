@@ -1,0 +1,30 @@
+<div class="dialog-container">
+  <h2 mat-dialog-title>
+    <mat-icon>work_outline</mat-icon> 
+    {{ data.isFirstJob ? 'Welcome! Create Your First Project' : 'New Hiring Project' }}
+  </h2>
+
+  <mat-dialog-content>
+    <p class="subtitle">Enter the role and requirements. Our AI will use this to score every resume you upload.</p>
+    
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Job Title / Role</mat-label>
+      <input matInput [(ngModel)]="jobData.roleName" placeholder="e.g., Senior Fullstack Engineer" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Job Description & Key Requirements</mat-label>
+      <textarea matInput [(ngModel)]="jobData.requirementsText" rows="10" 
+                placeholder="Paste the JD here. Include must-have skills, experience, and certifications..."></textarea>
+    </mat-form-field>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button *ngIf="!data.isFirstJob" mat-dialog-close>Cancel</button>
+    <button mat-flat-button color="primary" 
+            [disabled]="!jobData.roleName || !jobData.requirementsText"
+            (click)="onSave()">
+      Start Hiring
+    </button>
+  </mat-dialog-actions>
+</div>

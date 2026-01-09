@@ -1,0 +1,10 @@
+.dialog-container { padding: 8px; }
+.full-width { width: 100%; margin-bottom: 15px; }
+.subtitle { color: #666; margin-bottom: 20px; font-size: 0.9rem; }
+h2 mat-icon { vertical-align: middle; margin-right: 8px; color: #3f51b5; }
+
+/* Focus animation for the textarea */
+textarea { font-family: 'Roboto Mono', monospace; font-size: 13px; }
+.full-width { width: 100%; }
+    .dialog-header { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    textarea { font-family: sans-serif; }
