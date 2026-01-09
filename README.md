@@ -26,7 +26,4 @@ Database: PostgreSQL.
 
 AI Integration: (Gemini -> gemini-2.0-flash).
 
-3. Adding the Visuals
-Since we aren't going live yet, your Screenshots are the only way people can see your work.
 
-![Dashboard Preview](screenshots/main-dashboard.png)
