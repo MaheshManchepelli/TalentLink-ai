@@ -1,59 +1,32 @@
-# TalentlinkFrontend
+🚀 **TalentLink AI**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+An Intelligent Recruitment Engine for Contextual Candidate Ranking.
 
-## Development server
+Key Features
+Project-Based Context: Manage multiple hiring roles with unique requirements.
 
-To start a local development server, run:
+<img width="318" height="986" alt="image" src="https://github.com/user-attachments/assets/9e348f99-5ec7-4a13-b293-b82ea78d1ed6" />
 
-```bash
-ng serve
-```
+Semantic AI Ranking: Real-time fit-score calculation using LLMs.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<img width="480" height="907" alt="image" src="https://github.com/user-attachments/assets/6d07f1d5-8486-4e35-a568-ca8257a59abb" />
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Detailed AI Dossier: Justified match explanations and automated skill extraction.
 
-```bash
-ng generate component component-name
-```
+<img width="1144" height="979" alt="image" src="https://github.com/user-attachments/assets/60a6a57f-ab6f-4fa9-95c6-a4129e80a936" />
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+Technical Stack
+Frontend: Angular 18 (Standalone Components), Angular Material.
 
-## Building
+Backend: Spring Boot 3, Spring Data JPA.
 
-To build the project run:
+Database: PostgreSQL.
 
-```bash
-ng build
-```
+AI Integration: (Gemini -> gemini-2.0-flash).
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. Adding the Visuals
+Since we aren't going live yet, your Screenshots are the only way people can see your work.
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Dashboard Preview](screenshots/main-dashboard.png)
